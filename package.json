@@ -1,11 +1,18 @@
 {
-    "name": "expo-multi-app-example",
+    "name": "@simpletrack/monorepo",
     "version": "1.0.0",
-    "description": "This repo is running example and demo on how to run multiple apps from the same repo using expo",
+    "description": "expo monorepo",
     "main": "index.js",
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "turbo": "^2.5.0"
+    }
 }

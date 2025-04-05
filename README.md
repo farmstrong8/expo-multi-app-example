@@ -1,3 +1,3 @@
 ### Expo Multi App Example
 
-This repo is running example and demo on how to run multiple apps from the same repo using expo
+This is a monorepo that serves as an example on how to run multiple expo apps from one place.
