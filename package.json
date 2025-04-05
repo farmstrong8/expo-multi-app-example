@@ -1,0 +1,11 @@
+{
+    "name": "expo-multi-app-example",
+    "version": "1.0.0",
+    "description": "This repo is running example and demo on how to run multiple apps from the same repo using expo",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+}
