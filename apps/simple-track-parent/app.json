@@ -3,6 +3,7 @@
         "scheme": "acme",
         "plugins": ["expo-router"],
         "name": "simple-track-parent",
-        "slug": "simple-track-parent"
+        "slug": "simple-track-parent",
+        "newArchEnabled": true
     }
 }

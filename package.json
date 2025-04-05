@@ -8,8 +8,15 @@
         "packages/*"
     ],
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start:pro": "turbo run start --filter=@simpletrack/pro --ui=tui",
+        "start:parent": "turbo run start --filter=@simpletrack/parent --ui=tui",
+        "start:student": "turbo run start --filter=@simpletrack/student --ui=tui"
     },
+    "packageManager": "npm@10.5.0",
+    "engines": {
+        "node": "^20"
+    },
+    "engineStrict": true,
     "author": "",
     "license": "ISC",
     "devDependencies": {

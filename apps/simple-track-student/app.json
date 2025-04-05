@@ -3,6 +3,7 @@
         "scheme": "acme",
         "plugins": ["expo-router"],
         "name": "simple-track-student",
-        "slug": "simple-track-student"
+        "slug": "simple-track-student",
+        "newArchEnabled": true
     }
 }
